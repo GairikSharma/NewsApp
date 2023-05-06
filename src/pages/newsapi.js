@@ -84,7 +84,7 @@ function Newsapi() {
                     <Text>{newsitem.description}</Text>
                   </Stack>
                 </CardBody>
-                <Divider />
+                {/* <Divider /> */}
                 <CardFooter>
                   <ButtonGroup spacing="2">
                     <Button variant="solid" colorScheme="blue">
