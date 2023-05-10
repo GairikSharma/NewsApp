@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400&family=Exo&family=Indie+Flower&family=Inter+Tight:ital,wght@1,300&family=Inter:wght@300;400&family=Maven+Pro&family=Merriweather:wght@300&family=Montserrat:wght@300&family=Noto+Serif+Display:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Qahiri&family=Quicksand&family=Roboto&family=Source+Sans+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-serif;
+  font-family: "Exo", sans-serif;
+  font-family: "Indie Flower", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Inter Tight", sans-serif;
+  font-family: "Maven Pro", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif Display", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Qahiri", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}

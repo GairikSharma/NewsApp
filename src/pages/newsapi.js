@@ -20,11 +20,6 @@ import {
 } from "@chakra-ui/react";
 
 function Newsapi() {
-  useEffect(() => {}, []);
-  const [mystate, setMystate] = useState("abc");
-  useEffect(() => {
-    console.log(setMystate("abd"));
-  }, [mystate]);
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -36,7 +31,6 @@ function Newsapi() {
     );
     const res = await data.json();
     setNews(res.articles);
-    console.log(res.articles);
   };
   useEffect(() => {
     if (fetchData()) {
@@ -47,22 +41,8 @@ function Newsapi() {
   }, []);
   return (
     <>
-      {/* <ChakraBaseProvider> */}
         <Box className="container">
-          {/* {news.map((newdata) => {
-          return (
-            <div className="card" data-aos="fade-in" key={newdata.description}>
-              
-              <div className="card-footer">
-                <button>
-                  <a href={newdata.url}>Source</a>
-                </button>
-                <p className="publish">Publish Date</p>
-                <p className="publish">{newdata.publishedAt}</p>
-              </div>
-            </div>
-          );
-        })} */}
+          
 
           {news.map((newsitem) => {
             return (
@@ -100,7 +80,6 @@ function Newsapi() {
             );
           })}
         </Box>
-      {/* </ChakraBaseProvider> */}
     </>
   );
 }
